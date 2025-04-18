@@ -1,0 +1,105 @@
+{
+    "videos": [
+        {
+            "video_name": "assault001.mp4",
+            "label": "Assault",
+            "num_frames": 9380,
+            "anomalous": [
+                {"start_frame": 7197, "end_frame": 7248},
+                {"start_frame": 7373, "end_frame": 7422},
+                {"start_frame": 8038, "end_frame": 8109},
+                {"start_frame": 8070, "end_frame": 8089},
+                {"start_frame": 8182, "end_frame": 8209},
+                {"start_frame": 8494, "end_frame": 8613},
+                {"start_frame": 8930, "end_frame": 8959}                
+            ]
+        },
+        {
+            "video_name": "assault002.mp4",
+            "label": "Assault",
+            "num_frames": 9280,
+            "anomalous": [
+                {"start_frame": 4118, "end_frame": 4205},
+                {"start_frame": 4376, "end_frame": 4437},
+                {"start_frame": 4521, "end_frame": 4673},
+                {"start_frame": 4818, "end_frame": 4943},
+                {"start_frame": 5396, "end_frame": 5457},
+                {"start_frame": 6140, "end_frame": 6192},
+                {"start_frame": 6406, "end_frame": 6596},
+                {"start_frame": 8406, "end_frame": 8457},
+                {"start_frame": 9143, "end_frame": 9221},
+                {"start_frame": 9143, "end_frame": 9221}
+            ]
+        },
+        {
+            "video_name": "assault003.mp4",
+            "label": "Assault",
+            "num_frames": 9455,
+            "anomalous": [
+                {"start_frame": 6394, "end_frame": 6446}
+            ]
+        },
+        {
+            "video_name": "assault004.mp4",
+            "label": "Assault",
+            "num_frames": 569,
+            "anomalous": [
+                {"start_frame": 101, "end_frame": 236},
+                {"start_frame": 326, "end_frame": 393}
+            ]
+        },
+        {
+            "video_name": "assault005.mp4",
+            "label": "Assault",
+            "num_frames": 717,
+            "anomalous": [
+                {"start_frame": 173, "end_frame": 558}
+            ]
+        },
+        {
+            "video_name": "fighting001.mp4",
+            "label": "Fighting",
+            "num_frames": 9155,
+            "anomalous": [
+                {"start_frame": 5412, "end_frame": 5568},
+                {"start_frame": 5665, "end_frame": 5739},
+                {"start_frame": 6425, "end_frame": 6470},
+                {"start_frame": 7023, "end_frame": 7090},
+                {"start_frame": 7225, "end_frame": 7342},
+                {"start_frame": 7839, "end_frame": 7948},
+                {"start_frame": 7928, "end_frame": 8001}
+            ]
+        },
+        {
+            "video_name": "fighting002.mp4",
+            "label": "Fighting",
+            "num_frames": 1740,
+            "anomalous": [
+                {"start_frame": 86, "end_frame": 1706}
+            ]
+        },
+        {
+            "video_name": "fighting003.mp4",
+            "label": "Fighting",
+            "num_frames": 8879,
+            "anomalous": [
+                {"start_frame": 1774, "end_frame": 1797},
+                {"start_frame": 2569, "end_frame": 2607}
+            ]
+        },
+        {
+            "video_name": "fighting004.mp4",
+            "label": "Fighting",
+            "num_frames": 779,
+            "anomalous": [
+                {"start_frame": 94, "end_frame": 604}
+            ]
+        },
+        {
+            "video_name": "normal001.mp4",
+            "label": "Normal",
+            "num_frames": 869,
+            "anomalous": []
+        }
+    ]
+}

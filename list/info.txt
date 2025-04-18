@@ -1,0 +1,3 @@
+gt_label_ucf.npy  => ucf 데이터셋 카테고리 라벨
+gt_segment_ucf.npy  => 이상상황 구간 프레임 정보
+gt_ucf.npy  => 이상상황 영상인지 아닌지
