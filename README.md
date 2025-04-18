@@ -1,3 +1,7 @@
+# Info
+I was only trying to use ufc data related codes.  
+If you want to apply it to your dataset, you should first convert the video file using the <b>video_to_npy.py</b> file.
+
 # VadCLIP
 This is the official Pytorch implementation of our paper:
 **"VadCLIP: Adapting Vision-Language Models for Weakly Supervised Video Anomaly Detection"** in **AAAI 2024.**  
@@ -20,7 +24,7 @@ We extract CLIP features for UCF-Crime and XD-Violence datasets, and release the
 | Benchmark | CLIP[Baidu]    | CLIP | Model[Baidu]  | Model | 
 |--------|----------|-----------|-------------|------------|
 | UCF-Crime   | [Code: 7yzp](https://pan.baidu.com/s/1OKRIxoLcxt-7RYxWpylgLQ) | [OneDrive](https://stuxidianeducn-my.sharepoint.com/:u:/g/personal/pengwu_stu_xidian_edu_cn/Ea86YOcp5z9KhRFDQm9a8zwBcGiGGg5BuBJtgmCVByazBQ?e=tqHLHt)     | [Code: kq5u](https://pan.baidu.com/s/1_9bTC99FklrZRnkmYMuJQw)         | [OneDrive](https://stuxidianeducn-my.sharepoint.com/:u:/g/personal/pengwu_stu_xidian_edu_cn/Eaz6sn40RmlFmjELcNHW1IkBV7C0U5OrOaHcuLFzH2S0-Q?e=x8wtVe)           | 
-| XD-Violence | [Code: v8tw](https://pan.baidu.com/s/1q8DiYHcPJtrBQiiJMI7aJw)| [OneDrive](https://stuxidianeducn-my.sharepoint.com/:f:/g/personal/pengwu_stu_xidian_edu_cn/Et5dWQZb2cBDs7zsrp90SrQBL_52vTRNYTdjQW6SMl0ZVA?e=foX4ph)      | [Code: apw6](https://pan.baidu.com/s/1O0uwVS3ZyDA1soWUv2VasQ) | [OneDrive](https://stuxidianeducn-my.sharepoint.com/:u:/g/personal/pengwu_stu_xidian_edu_cn/EYlNnn_xfVxBtQZuQgngrMsBHY-i8QHTVOs7PmryzQ2MyA?e=99nxnR)           | 
+
 
 
 
@@ -28,19 +32,12 @@ We extract CLIP features for UCF-Crime and XD-Violence datasets, and release the
 The following files need to be adapted in order to run the code on your own machine:
 - Change the file paths to the download datasets above in `list/xd_CLIP_rgb.csv` and `list/xd_CLIP_rgbtest.csv`. 
 - Feel free to change the hyperparameters in `xd_option.py`
-### Train and Test
+### Inference
 After the setup, simply run the following command: 
 
-
-Traing and infer for XD-Violence dataset
+Infer for your dataset
 ```
-python xd_train.py
-python xd_test.py
-```
-Traing and infer for UCF-Crime dataset
-```
-python ucf_train.py
-python ucf_test.py
+python my/my_ucf_test.py
 ```
 
 ## References
@@ -48,24 +45,3 @@ We referenced the repos below for the code.
 * [XDVioDet](https://github.com/Roc-Ng/XDVioDet)
 * [DeepMIL](https://github.com/Roc-Ng/DeepMIL)
 
-## Citation
-
-If you find this repo useful for your research, please consider citing our paper:
-
-```bibtex
-@article{wu2023vadclip,
-  title={Vadclip: Adapting vision-language models for weakly supervised video anomaly detection},
-  author={Wu, Peng and Zhou, Xuerong and Pang, Guansong and Zhou, Lingru and Yan, Qingsen and Wang, Peng and Zhang, Yanning},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
-  year={2024}
-}
-
-@article{wu2023open,
-  title={Open-Vocabulary Video Anomaly Detection},
-  author={Wu, Peng and Zhou, Xuerong and Pang, Guansong and Sun, Yujia and Liu, Jing and Wang, Peng and Zhang, Yanning},
-  journal={arXiv preprint arXiv:2311.07042},
-  year={2023}
-}
-
-```
----
